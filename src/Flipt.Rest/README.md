@@ -25,35 +25,6 @@ First, download the latest `openapi.yml` file from the Flipt GitHub repository. 
 
 ```
 
-I see where the confusion might have arisen. Let's correct the markdown formatting for the code blocks to ensure they are properly displayed. Here's the revised markdown content with the correct formatting for the shell commands:
-
-markdown
-Copy code
-# Flipt REST Client Generation Guide
-
-This guide outlines the steps to generate a REST client for Flipt using the `nswag` tool, based on the Flipt OpenAPI specification.
-
-## Prerequisites
-
-Before starting, ensure you have the following prerequisites installed on your system:
-
-- **.NET 8.0 SDK or higher**: Necessary for running the `nswag` tool. It can be downloaded from [https://dotnet.microsoft.com/en-us/download](https://dotnet.microsoft.com/en-us/download).
-
-- **NSwag**: This tool generates client code for REST APIs described by OpenAPI specifications. Install it globally using the .NET CLI with the following command:
-
-dotnet tool install -g nswag
-
-csharp
-Copy code
-
-## Updating the REST Client
-
-To generate or update the Flipt REST client, follow these steps:
-
-### 1. Download the OpenAPI Specification
-
-First, download the latest `openapi.yml` file from the Flipt GitHub repository. This can be done manually or by using a command like `curl`:
-
 curl https://raw.githubusercontent.com/flipt-io/flipt-openapi/main/openapi.yml -o openapi.yml
 ```
 
